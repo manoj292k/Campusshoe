@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.containerHeader{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerHeader p{
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: White;
+}
+.containerHeader li{
+width: max-content;
+padding: 10px;
+}
+.containerHeader li a{
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  padding: 0px 10px;
+}
+img{
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+.heading{
+  text-align: center;
+  padding: 10px 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Productinhome{
+width: 100%;
+height: max-content;
+display: flex;
+overflow: scroll;
+overflow-y: hidden;
+padding: 20px 10px;
+
+}
+.Productinhome::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+  width: 100px;
+}
+.Productinhome::-webkit-scrollbar {
+  height: 8px;
+  width: 70%;  
+}
+
+.Productinhome::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.Homeproduct{
+  
+  width: 300px;
+  height: 350px;
+
+}
+.productimghome{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.Homeproduct button{
+  width: 90%;
+}
+.Homeproduct button:hover{
+  background-color: black;
+  color: white;
+}
+/*--------category-----container  */
+.homecategory{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.homecategory div{
+  width: 48%;
+  height: 550px;
+  overflow: hidden;
+  padding: 10px;
+}
+/* home bottom banner */
+.HomeBottomBaner{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(238, 238, 238);
+}
+.HomeBottomBaner div img{
+  width: 300px;
+  height: 300px;
+}
+.HomeBottomBaner div{
+  display: flex;
+  align-items: center;
+}
+.homeendcontainertwo{
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+.homeendcontainertwo button{
+  background-color: black;
+  color: white;
+  font-size: larger;
+  padding: 5px 15px;
+}
+.Homebtomimg1{
+  position: relative;
+  left: 8%;
+  Top: 10%;
+}
+.MensBanner,.MensBanner img{
+  width: 100%;
+  height: 300px;
+}
+.FooterBanner{
+  background-color: rgb(231, 231, 231);
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Footercontainer{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.Footerone{
+  width: 200px;
+  height: auto;
+  padding: 20px;
+  
+
+}
+.Footerthree{
+  width: 220px;
+  height: auto;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.Footerfour{
+  width: 350px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.FooterLink{
+  display: block;
+}
+li,li a, h5{
+  list-style: none;
+  color: rgb(194, 190, 190);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5:hover{
+  color: white;
+  cursor: pointer;
+}
+ a:hover{
+  color: white;
+  cursor: pointer;
+}
+li:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.Footerfour input{
+  padding: 10px;
+}
+.Footerfour Button{
+  padding: 0px 15px;
+}
+.copywrite{
+  background: black;
+  text-align: center;
+  color: white;
+}
+/* ------  product container----------- */
+.ProductContainer{
+  width: 75%;
+  height: max-content;
+  margin-left: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 400px;
+}
+.productitem{
+ width: 250px;
+ height: 350px;
+}
+.productitem img{
+ width: 100%;
+ height: 250px;
+}
+.wishlistbtn{
+  border: none;
+  position: relative;
+  left: 200px;
+  bottom: 340px;
+  background-color: white;
+}
+.Addcartbtn{
+  position: relative;
+  bottom: 10px;
+  width: 80%;
+  margin-left: 10%;
+}
+.Addcartbtn:hover{
+background-color: black;
+color: white;
+}
+.wishlistbtn:hover{
+  background-color: black;
+  color: white;
+  }
+  /* ---filter---- */
+  .Filtercontainer{
+   background-color: pink;
+   width: 24%;
+   height: 1200px;
+  }
+  select{
+    width: 250px;
+    height: 30px;
+    margin-left: 15px;
+  }
+ .colorbox,.colorbox label {
+  margin-left: 20px;
+ }
+ .pricerange{
+  margin-left: 20px;
+ }
+ .pricerange input{
+  width: 100px;
+ }
+  
