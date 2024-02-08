@@ -6,20 +6,20 @@ import Womens from './component/Womens';
 import Kids from './component/Kids';
 import Footer from './component/Footer';
 
-
 function App() {
   return (
     <BrowserRouter>
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* Set the home page as the default route */}
+          <Route path="/Campusshoe" element={<Home />} />
           <Route path="/Mens" element={<Mens />} />
           <Route path="/Womens" element={<Womens />} />
           <Route path="/Kids" element={<Kids />} />
         </Routes>
+        <Footer/>
       </div>
-      <Footer/>
     </BrowserRouter>
   );
 }

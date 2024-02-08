@@ -17,23 +17,23 @@ function Mens(){
         </select>
         <br></br> <br></br>
         <h6>Colors</h6><div className='colorbox'>
-        <input type='checkbox'></input> <label>All color</label> <br></br>
-        <input type='checkbox'></input><label> Black</label> <br></br>
-        <input type='checkbox'></input><label> White</label> <br></br>
-        <input type='checkbox'></input><label> Dark Blue</label> <br></br>
-        <input type='checkbox'></input><label> Green</label> <br></br>
-        <input type='checkbox'></input><label> Brown</label> <br></br>
-        <input type='checkbox'></input><label> Red</label> <br></br>
-        <input type='checkbox'></input><label> Pink</label> <br></br>
-        <input type='checkbox'></input><label> Violet</label> <br></br>
-        <input type='checkbox'></input><label> Orange</label> <br></br>
+        <input type='checkbox'></input> <label htmlFor="someInput">All color</label> <br></br>
+        <input type='checkbox'></input><label htmlFor="someInput"> Black</label> <br></br>
+        <input type='checkbox'></input><label htmlFor="someInput"> White</label> <br></br>
+        <input type='checkbox'></input><label htmlFor="someInput"> Dark Blue</label> <br></br>
+        <input type='checkbox'></input><label htmlFor="someInput"> Green</label> <br></br>
+        <input type='checkbox'></input><label htmlFor="someInput"> Brown</label> <br></br>
+        <input type='checkbox'></input><label htmlFor="someInput"> Red</label> <br></br>
+        <input type='checkbox'></input><label htmlFor="someInput"> Pink</label> <br></br>
+        <input type='checkbox'></input><label htmlFor="someInput"> Violet</label> <br></br>
+        <input type='checkbox'></input><label htmlFor="someInput"> Orange</label> <br></br>
         </div>
         <br></br> <br></br>
         <h6>Price Range</h6>
         <div className='pricerange'>
-        <label for="min-price">Min Price:</label>
+        <label htmlFo="min-price">Min Price:</label>
         <input type="number" id="min-price" name="min-price" min="0"/> <br></br><br></br>
-        <label for="max-price">Max Price:</label>
+        <label htmlFor="max-price">Max Price:</label>
         <input type="number" id="max-price" name="max-price" min="0"/> 
         </div>
         <br></br> <br></br>
@@ -57,9 +57,7 @@ function Mens(){
             <p> ₹  {product.Price}- Only</p>
             <button className='Addcartbtn'> Add Cart</button>
             <button className='wishlistbtn'><box-icon name='heart' ></box-icon></button>
-            </div>
-                
-                )}
+            </div>    )}
         </div>
         </>
     )
