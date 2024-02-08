@@ -13,7 +13,7 @@ function Header() {
             <a href="/Sales">Sales</a>
           </li>
         </ul>
-        <Link to="/"><p>Campus</p></Link>
+        <Link to="/Campusshoe"><p>Campus</p></Link>
         <ul>
           <li>
             <a href="#">Account <box-icon name='user' color='#ffffff'></box-icon></a>
