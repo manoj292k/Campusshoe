@@ -1,7 +1,15 @@
 import React, { useState } from 'react';
 import product from "../Database/Products";
 
-function Kids() {
+function Kids({addToCart}) {
+   const handleAddToCart=(product, event)=>{
+    addToCart(product)
+    const button = event.currentTarget;
+    button.innerHTML = 'Added Successfully';
+    button.style.background="Black";
+    button.style.color = "white";
+   }
+   
     // State variables for filtering
     const [sortBy, setSortBy] = useState("Default");
     const [selectedColors, setSelectedColors] = useState([]);
@@ -25,6 +33,7 @@ function Kids() {
                 setSelectedColors([...selectedColors, color]);
             }
         }
+       
     };
     
 
@@ -51,9 +60,11 @@ function Kids() {
 
     return (
         <>
+        
         <div className="MensBanner">
             <img src="https://www.campusshoes.com/cdn/shop/collections/bg_slideshow_h1_1_1728x.jpg" alt='banner'></img>
         </div>
+        <button></button>
             {/* Your JSX code for filters */}
             <div className="Filtercontainer">
                 <h5>Filter</h5>
@@ -96,12 +107,12 @@ function Kids() {
                         <h6>{product.Name}</h6>
                         <p> ₹ {product.Price} - Only</p>
                         <p>{product.Color}</p>
-                        <button className='Addcartbtn'> Add Cart</button>
+                        <button className='Addcartbtn' onClick={(event)=>handleAddToCart(product, event)}> Add Cart</button>
                         <button className='wishlistbtn'><box-icon name='heart'></box-icon></button>
                     </div>
                 )}
             </div>
-            
+            <h6 style={{textAlign:"center"}}>More product add soon..</h6>
         </>
     );
 }

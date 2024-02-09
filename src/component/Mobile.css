@@ -1,0 +1,96 @@
+@media only screen and (max-width : 700px){
+    .containerHeader{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .containerHeader ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: first start;
+    }
+    .Footercontainer{
+        flex-wrap: wrap;
+    }
+    .FooterBanner{
+    background-color: rgb(231, 231, 231);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .HomeBottomBaner div{
+        flex-wrap: wrap;
+      }
+      .HomeBottomBaner{
+      height: auto;
+      flex-wrap: wrap;
+    }
+    .homeendcontainertwo{
+        width: 100%;
+        height: 400px;
+    }
+    .Homebtomimg1{
+        position: relative;
+        left: 30%;
+        Top: 10%;
+      }
+      .homecategory{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .homecategory div{
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        object-fit: cover;
+        padding: 10px;
+        transform: translatey(-0%);
+      }
+      .homecategory div img{
+        
+        width: 100%;
+        height: 300px;
+      }
+      .Homeproduct{
+        width: 350px;
+        height: 400px;
+      }
+      .Filtercontainer{
+        width: 100%;
+        position: relative;
+        z-index: 1000;
+        display: none;
+       }
+       .filteroff{
+        display: block;
+       }
+       .ProductContainer{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0px;
+        left: -20%;
+ 
+    }
+    .wishlistbtn{
+        border: none;
+        position: relative;
+        left: 300px;
+        bottom: 350px;
+        background-color: white;
+      }
+    .productitem{
+        width: 350px;
+        height: 400px;
+        padding: 10px;
+
+    }
+}
