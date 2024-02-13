@@ -296,4 +296,12 @@ color: white;
  .mobileCart{
   display: none;
  }
- 
+ .searchbox{
+  display: none;
+ }
+ .Menubtn{
+  display: none;
+ }
+ .mobiletop{
+  display: none;
+ }
