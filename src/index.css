@@ -290,3 +290,10 @@ color: white;
   position: relative;
   z-index: 1000;
  }
+ .filtericon{
+  display: none;
+ }
+ .mobileCart{
+  display: none;
+ }
+ 

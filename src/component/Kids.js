@@ -64,7 +64,7 @@ function Kids({addToCart}) {
         <div className="MensBanner">
             <img src="https://www.campusshoes.com/cdn/shop/collections/bg_slideshow_h1_1_1728x.jpg" alt='banner'></img>
         </div>
-        <button></button>
+        <button className='filtericon'>Filter</button>
             {/* Your JSX code for filters */}
             <div className="Filtercontainer">
                 <h5>Filter</h5>
