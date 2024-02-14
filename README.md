@@ -1,4 +1,7 @@
+DESKTOP version
 ![manoj292k github io_Campusshoe_(Nest Hub Max) (1)](https://github.com/manoj292k/Campusshoe/assets/143692735/9bfa5485-29b6-4913-9295-3c6c93a37443)
+
+MOBILE VERSION
 ![manoj292k github io_Campusshoe_(Galaxy S8)](https://github.com/manoj292k/Campusshoe/assets/143692735/ce4855e0-9a7e-4bfc-ab95-719ffe84fc0d)
 
 Project Overview:
