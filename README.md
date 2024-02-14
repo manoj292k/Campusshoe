@@ -1,8 +1,6 @@
 DESKTOP version
 ![manoj292k github io_Campusshoe_(Nest Hub Max) (1)](https://github.com/manoj292k/Campusshoe/assets/143692735/9bfa5485-29b6-4913-9295-3c6c93a37443)
 
-MOBILE VERSION
-![manoj292k github io_Campusshoe_(Galaxy S8)](https://github.com/manoj292k/Campusshoe/assets/143692735/ce4855e0-9a7e-4bfc-ab95-719ffe84fc0d)
 
 Project Overview:
 Our project aims to develop a fully functional e-commerce website using React, a popular JavaScript library for building user interfaces. This e-commerce website will provide users with a seamless shopping experience, allowing them to browse through various products, add items to their cart, and complete their purchases securely.
