@@ -63,7 +63,7 @@ function Home() {
       <div className='HomeBottomBaner'>
         <div>
           <img className='Homebtomimg1' src='https://www.campusshoes.com/cdn/shop/files/Home_Featured_image_1_360x.jpg?v=1704714236'></img>
-          <img src='https://www.campusshoes.com/cdn/shop/files/Home_Featured_image_2_360x.jpg?v=1704714255'></img>
+          <img className='Homebtomimg2' src='https://www.campusshoes.com/cdn/shop/files/Home_Featured_image_2_360x.jpg?v=1704714255'></img>
         </div>
         <div className='homeendcontainertwo'> 
           <h3>Know Your Shoe!</h3>

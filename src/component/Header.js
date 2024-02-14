@@ -9,7 +9,6 @@ function Header() {
   }
   return (
     <>
-    <button className="Menubtn" onClick={handleOpenMenu}><box-icon name='menu-alt-left' color='#000' ></box-icon></button>
     <div className="searchbox">
       <h1>Campus Shoes</h1>
       <input type="text" placeholder="Search your product"></input><button><box-icon name='search' color='#0a0a0a' ></box-icon></button>
@@ -63,8 +62,9 @@ function Header() {
           <li>
             <a href="#"> <box-icon name='user' color='#ffffff'></box-icon></a>
             <a href="#"><box-icon name='heart' color='#ffffff'></box-icon></a>
-            <a href="#"><box-icon name='search' color='#ffffff'></box-icon></a>
             <Link to="/Cart"><box-icon name='cart-alt' color='#ffffff'></box-icon></Link>
+            <a href="#" onClick={handleOpenMenu}><box-icon name='menu-alt-left' color='#ffffff'></box-icon></a>
+
           </li>
         </ul>
     </>

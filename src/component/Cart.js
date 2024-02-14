@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Cart({ cartItems, clearCart }) {
     const totalAmount = cartItems.reduce((total, item) => {
         if (typeof item.Price === 'number' && !isNaN(item.Price)) {
@@ -10,9 +10,9 @@ function Cart({ cartItems, clearCart }) {
         }
     }, 0);    if (cartItems.length === 0) {
         return (
-            <div>
+            <div className="Noprocart">
                 <h3>No product found in the cart.</h3>
-                <h1>Shop Now</h1>
+                <button><Link to="/Kids">SHOP NOW</Link></button>
             </div>
         );
     }
@@ -25,8 +25,8 @@ function Cart({ cartItems, clearCart }) {
                     <h6>{item.Name}</h6>
                     <p> ₹ {item.Price} - Only</p>
                     <p>{item.Color}</p>
-                    <button onClick={() => clearCart(item.id)}>
-                        <box-icon name='x' color='#ffffff' ></box-icon>
+                    <button className="cartremovebtn" onClick={() => clearCart(item.id)}>
+                    <box-icon type='solid' name='trash'></box-icon>
                     </button>
                 </div>
             ))}

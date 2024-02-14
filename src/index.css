@@ -17,7 +17,7 @@ code {
 
 .containerHeader{
   width: 100%;
-  height: 80px;
+  height: 5%;
   background-color: black;
   display: flex;
   justify-content: space-around;
@@ -98,14 +98,14 @@ padding: 20px 10px;
 }
 .homecategory div{
   width: 48%;
-  height: 550px;
+  height: auto;
   overflow: hidden;
   padding: 10px;
 }
 /* home bottom banner */
 .HomeBottomBaner{
   width: 100%;
-  height: 500px;
+  height: 70vh;
   display: flex;
   flex-wrap: nowrap;
 
@@ -117,6 +117,9 @@ padding: 20px 10px;
 .HomeBottomBaner div{
   display: flex;
   align-items: center;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
 }
 .homeendcontainertwo{
   width: 50%;
@@ -125,6 +128,7 @@ padding: 20px 10px;
   display: flex;
   flex-direction: column;
   justify-content:center;
+  
 }
 .homeendcontainertwo button{
   background-color: black;
@@ -134,8 +138,13 @@ padding: 20px 10px;
 }
 .Homebtomimg1{
   position: relative;
-  left: 8%;
-  Top: 10%;
+  left: 7%;
+  Top: 13%;
+}
+.Homebtomimg2{
+  position: relative;
+  left: 7%;
+  bottom: 13%;
 }
 .MensBanner,.MensBanner img{
   width: 100%;
@@ -178,6 +187,11 @@ a{
   gap: 10px;
   
 }
+.Footerfour button{
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+}
 .FooterLink{
   display: block;
 }
@@ -202,9 +216,7 @@ li:hover{
 .Footerfour input{
   padding: 10px;
 }
-.Footerfour Button{
-  padding: 0px 15px;
-}
+
 .copywrite{
   background: black;
   text-align: center;
@@ -275,11 +287,17 @@ color: white;
   height: max-content;
   display: flex;
   flex-wrap: wrap;
+  z-index: 2;
  }
  .Cartitems{
   width: 250px;
   height: 400px;
 
+ }
+ .cartremovebtn{
+  background-color: red;
+  border: none;
+  border-radius: 10px;
  }
  .Cartitems img{
   width: 250px;
@@ -288,8 +306,19 @@ color: white;
  .Cartcontainer{
   width: 100%;
   position: relative;
-  z-index: 1000;
  }
+ .Noprocart{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.Noprocart button,a{
+  background-color: black;
+  color: white;
+}
  .filtericon{
   display: none;
  }

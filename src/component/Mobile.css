@@ -59,18 +59,38 @@
         width: 100%;
         height: 300px;
       }
+      .HomeBottomBaner{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+       flex-direction: column;
+      }
+      .HomeBottomBaner div{
+        width: 100%;
+        height: 49%;
+        justify-content: center;
+        
+      }
       .HomeBottomBaner div img{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
       }
       .Homebtomimg1{
         position: relative;
-        left: 4%;
-        Top: 50%;
+        left: -20%;
+        Top: 10%;
+      }
+      .Homebtomimg2{
+        position: relative;
+        top: 0%;
+        left: 10%;
       }
       .Homeproduct{
         width: 350px;
         height: 400px;
+      }
+      .Footerfour input{
+        width: 90%;
       }
       .Filtercontainer{
         width: 100%;
@@ -105,6 +125,18 @@
     .filtericon{
       display: block;
     }
+    .Noprocart{
+      width: 100%;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .Noprocart button{
+      background-color: black;
+      color: white;
+    }
     .Desktopcart{
       display: none;
     }
@@ -116,7 +148,7 @@
       display: block;
       position: fixed;
       z-index: 100;
-      bottom: 0px;
+      bottom: -2%;
       background-color: black;
       border-radius: 10px;
       
@@ -142,8 +174,8 @@
       width: 90%;
       height: 100vh;
       background-color: rgb(0, 0, 0);
-      z-index: 1000;
-      top: 0px;
+      z-index: 150;
+      bottom: 0%;
       transition: 0.8 ease-out;
       
     }
@@ -152,8 +184,8 @@
       height: 100vh;
       align-items: center;
       display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+     flex-direction: column;
+      justify-content: space-around;
       border: 1px solid black;
       align-items: flex-start;
     }
